@@ -1,0 +1,29 @@
+.filter-container {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+
+.filter-input {
+  height: 50px;
+  width: 220px;
+  background-color: var(--primary-color);
+  color: var(--grey-light-color);
+  font-size: 16px;
+  border: 1px solid #8d8d8d;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+
+@media (min-width: 576px) {
+  .filter-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .filter-input {
+    width: 270px;
+  }
+}
